@@ -60,4 +60,11 @@
     padding: 6px 12px;
   }
 }
+.qrCode {
+  margin: 1rem 0;
+}
 
+.qrCode img {
+  width: 100px;
+  height: 100px;
+}

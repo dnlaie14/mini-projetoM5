@@ -5,6 +5,9 @@ export default function Footer() {
     <footer className={styles.footer}>
       <section id="contato">
       <p>Desenvolvido por Daniel Moura 💻</p>
+      <div className={styles.qrCode}>
+    <img src="/qrcode.png" alt="QR Code do portfólio" />
+  </div>
       <div className={styles.socialLinks}>
         <a
           href="https://github.com/dnlaie14"
