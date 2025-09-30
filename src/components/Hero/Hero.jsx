@@ -19,7 +19,7 @@ export default function Hero() {
           Curso de Desenvolvedor de Sites – Em andamento <span>|</span> Servente de Obras
         </h2>
 
-        {/* Título para a seção Sobre mim */}
+       
         <h2 className={styles.sectionTitle}>Sobre mim</h2>
 
         <p className={styles.description}>
@@ -52,6 +52,9 @@ export default function Hero() {
           <div className={styles.modal}>
             <h3>Entre em contato</h3>
             <p>Email: <strong>danielmoura14689@gmail.com</strong></p>
+             <div className={styles.qrCode}>
+        <img src="/qrcode.png" alt="QR Code do contato" />
+      </div>
             <button onClick={toggleModal} className={styles.closeBtn}>
               Fechar
             </button>
